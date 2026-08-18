@@ -3,7 +3,7 @@ public:
     vector<int> searchRange(vector<int>& nums, int target) {
         int n = nums.size();
         int st = 0, end = n-1;
-        vector <int> ans;
+        
         int first = -1, last = -1;
         while(st<=end){ //left
             int mid = st + (end - st)/2;
